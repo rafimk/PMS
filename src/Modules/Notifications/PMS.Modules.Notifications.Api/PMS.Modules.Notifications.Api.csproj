@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\PMS.Shared\PMS.Shared.csproj" />
+      <ProjectReference Include="..\..\Users\PMS.Modules.Users.Shared\PMS.Modules.Users.Shared.csproj" />
+      <ProjectReference Include="..\PMS.Modules.Notifications.Shared\PMS.Modules.Notifications.Shared.csproj" />
+    </ItemGroup>
+
+</Project>
